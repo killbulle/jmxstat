@@ -6,7 +6,7 @@ import javax.management.openmbean.TabularDataSupport
 
 public class Metric {
     protected String name;
-    //metric rename name and id will be added if a similar rename metric exist
+    //metric rename name and id 
     protected Closure rename;
 
     //TODO support des formulas

@@ -19,7 +19,7 @@ public class JmxStats {
 	String filename;
 	long t0;
 	int nsamples;
-	//temps echantillonages en ms
+	//sample time en ms
 	int samplingtimes = 30000;
 	int cut;
 	int headerrepeat = 0;

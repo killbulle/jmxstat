@@ -10,11 +10,11 @@ class BrutFormatter implements OutPutFormatter {
 
         results.each {
             key, value ->
-            builder.append("-------------------------------------------------------------------------------------");
+             builder.append("-------------------------------------------------------------------------------------");
              builder.append("${key.name}\t\t name:${key?.metric?.name}\n");
              builder.append(value)
              builder.append("-------------------------------------------------------------------------------------");
-        }
+        }-
         return builder.toString();
 
 

@@ -1,4 +1,5 @@
 Tools for testing dsl;=) and monitoring jmx server GLOBALLY EXPIREMENTAL but useful ;)
+-TODO enhance all comments and headers
 -TODO refactoring for better design
 -TODO optimize Jmx getAttirbutes calls
 -TODO Nagios support to be tested
