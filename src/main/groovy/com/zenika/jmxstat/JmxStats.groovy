@@ -253,7 +253,7 @@ public class JmxStats {
 			printf(format, "csv", options.csv);
 			printf(format, "jmx file", options.file);
 		}
-		//TODO creation d'une struct quand les options seront finalisées pour porter param et conversion
+		//TODO create a struc when options will be finalized ...
 		JmxStats stats = new JmxStats(options.server, port, user, password, nbsamples, repeat, interval, formattercode, options.verbose, cut, options.file)
 		return stats
 	}
