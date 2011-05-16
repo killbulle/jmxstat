@@ -14,7 +14,7 @@ class BrutFormatter implements OutPutFormatter {
              builder.append("${key.name}\t\t name:${key?.metric?.name}\n");
              builder.append(value)
              builder.append("-------------------------------------------------------------------------------------");
-        }-
+        }
         return builder.toString();
 
 
